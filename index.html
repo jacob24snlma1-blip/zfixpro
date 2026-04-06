@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ZFIX - Smart Service Company</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body{
+      margin:0;
+      font-family:Arial;
+      background:#0d1117;
+      color:white;
+    }
+
+    /* HERO */
+    .hero{
+      text-align:center;
+      padding:70px 20px;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .hero::before{
+      content:"ZFIX";
+      position:absolute;
+      font-size:140px;
+      top:30%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      color:rgba(30,136,229,0.08);
+      font-weight:bold;
+    }
+
+    h1{
+      color:#1E88E5;
+      font-size:55px;
+      margin:0;
+    }
+
+    p{
+      color:#ccc;
+      margin-top:10px;
+    }
+
+    .btn{
+      padding:12px 18px;
+      margin:10px;
+      border:none;
+      border-radius:6px;
+      color:white;
+      cursor:pointer;
+      font-size:15px;
+    }
+
+    .wa{ background:#25D366; }
+    .call{ background:#1E88E5; }
+
+    /* SECTION */
+    .section{
+      padding:40px 20px;
+      text-align:center;
+    }
+
+    /* CARDS */
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:15px;
+      padding:20px;
+    }
+
+    .card{
+      background:#161b22;
+      padding:20px;
+      border-radius:10px;
+    }
+
+    .price{
+      color:#1E88E5;
+      font-weight:bold;
+      margin-top:10px;
+    }
+
+    /* INFO BOX */
+    .box{
+      background:#161b22;
+      margin:20px;
+      padding:20px;
+      border-radius:10px;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      color:#777;
+      font-size:13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>ZFIX</h1>
+    <p>Smart & Trusted Home Service Company 🔧</p>
+
+    <a href="https://wa.me/8801310273676">
+      <button class="btn wa">WhatsApp</button>
+    </a>
+
+    <a href="tel:01761844987">
+      <button class="btn call">Call Now</button>
+    </a>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="section">
+    <h2>About ZFIX</h2>
+    <div class="box">
+      ZFIX একটি demo service company যা home repair, plumbing, electrical এবং maintenance service প্রদান করে।  
+      আমাদের লক্ষ্য দ্রুত, সাশ্রয়ী এবং বিশ্বস্ত সার্ভিস দেওয়া।
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <div class="section">
+    <h2>Our Services & Hourly Rate</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        🔧 Plumbing Service
+        <div class="price">৳300 - ৳500 / hour</div>
+        <small>Leak, pipe fix, bathroom work</small>
+      </div>
+
+      <div class="card">
+        ⚡ Electrical Service
+        <div class="price">৳400 - ৳700 / hour</div>
+        <small>Wiring, fan, switch repair</small>
+      </div>
+
+      <div class="card">
+        🛠 Appliance Repair
+        <div class="price">৳350 - ৳600 / hour</div>
+        <small>Fan, fridge, small devices</small>
+      </div>
+
+      <div class="card">
+        🏠 Home Maintenance
+        <div class="price">৳500 - ৳900 / hour</div>
+        <small>Full home service support</small>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PROFIT MODEL -->
+  <div class="section">
+    <h2>Business Model (Demo)</h2>
+
+    <div class="box">
+      <p>👉 Service charge থেকে profit সাধারণত 20% - 40% হতে পারে (real market dependent)</p>
+      <p>👉 Technician payment + transport বাদ দিয়ে net profit থাকে</p>
+      <p>👉 Example: ৳500 service → ৳100–৳200 profit (approx)</p>
+    </div>
+  </div>
+
+  <!-- QUALITY -->
+  <div class="section">
+    <h2>Quality Promise</h2>
+
+    <div class="box">
+      ✔ Fast Response (30–60 min) <br>
+      ✔ Verified Technicians <br>
+      ✔ Affordable Pricing <br>
+      ✔ Customer Support Available
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 ZFIX | Demo Business Website
+  </footer>
+
+</body>
+  </html>
